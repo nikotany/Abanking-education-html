@@ -1,16 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-
-<body>
-    
-</body>
-
+    <head>
+        <meta charset="UTF-8">
+        <!-- <meta name="viewport" -->
+            <!-- content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+        <title>Document</title>
+    </head>
+    <body>
+        <header class="page-header">
+            <nav class="page-nav">
+                <div class="logo page-nav__logo">
+                    <img class="logo__img" src="img/logo.svg" alt="Логотип" width="38" height="38">
+                    <span class="logo__name">antools.</span>
+                </div>
+                <ul class="site-navigation page-nav__element">
+                    <li class="site-navigation__item">
+                        <a class="first" href="#">Home</a>                     
+                    </li>
+                    <li class="site-navigation__item">
+                        <div>
+                            <a class="second" href="#">Categories</a>
+                            <img src="img/chevron-down.svg" alt="Развернуть">
+                        </div>
+                    </li>
+                    <li class="site-navigation__item">
+                        <a href="#">My Collections</a>
+                    </li>
+                    <li class="site-navigation__item">
+                            <a href="#">Blog</a>
+                    </li>
+                </ul>
+                <div class="registration">
+                    <ul class="account page-nav__account">
+                        <li class="account__item"><a href="#">Login</a></li>
+                        <li class="account__item">
+                            <button class="registration__button">Sign Up</button>
+                        </li>
+                    </ul> 
+                </div>
+            </nav>
+        </header>
+        <main class="page-main">
+            <section class="hero">
+                <div class="main-hero">
+                    <div>
+                        <article class="hero__tools">
+                            <h2>Awesome tools for Designer & Developer<span>.</span></h2>
+                            <p>Antool is a web collection of information on paid or free Design and Development tools</p>
+                            <div class="search">
+                                <img class="search__loupe" src="img/search.svg" alt="Лупа" width="24.08" height="24">
+                                <img class="search__burn" src="img/Line 1.svg" alt="Курсор" height="16"> 
+                                <input type="text" class="search__input" placeholder="find more than 430+ tools...">
+                                <button class="search__button">Search</button>
+                            </div>
+                        </article>
+                        <div>
+                            <ul class="social-network">
+                                <li class="social-network__item">
+                                    <a href="#"><img src="img/facebook.svg" alt="Логотип Facebook" width="34" height="34"></a>
+                                </li>
+                                <li class="social-network__item">
+                                    <a href="#"><img src="img/instagram.svg" alt="Логотип Instagram" width="36" height="36"></a>
+                                </li>
+                                <li class="social-network__item">
+                                    <a href="#"><img src="img/twitter.svg" alt="Логотип Twitter" width="36" height="36"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <img class="background" src="img/Illustration.svg" alt="Фоновое изображение" width="589" height="568">
+                </div>
+            </section>
+            <section class="popular">
+                <div class="info">
+                    <h1>Most Popular Tools</h1>
+                    <p>Tools for the best Designers and Developers
+                        most popularly used in the world</p>
+                </div>
+                <div>
+                    <ul class="popular-tools">
+                        <li class="popular-tools__item">
+                            <div class="tool-content">
+                                <div class="logo-tool">
+                                    <img src="img/figma-icon.svg" alt="Figma" width="64" height="64">
+                                    <div>
+                                        <h3 class="logo-tool__name">FIGMA</h3>
+                                        <span class="logo-tool__price">Free</span>
+                                    </div>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <div class="visit">
+                                    <ul class="grade">
+                                        <li class="grade__item">
+                                            <img src="img/like.svg" alt="Лайк">
+                                        </li>
+                                        <li class="grade__item">
+                                            <img src="img/add.svg" alt="Добавить">
+                                        </li>
+                                    </ul>
+                                    <button>Visit</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="popular-tools__item active_tool">
+                            <div class="tool-content tool-content_active">
+                                <div class="logo-tool">
+                                    <img src="img/sketch-icon.svg" alt="Sketch" width="64" height="56.95">
+                                    <div>
+                                        <h3 class="logo-tool__name">Sketch</h3>
+                                        <span class="logo-tool__price">Trial & Paid</span>
+                                    </div>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <div class="visit">
+                                    <ul class="grade">
+                                        <li class="grade__item">
+                                            <img src="img/active-like.svg" alt="Активный лайк">
+                                        </li>
+                                        <li class="grade__item">
+                                            <img src="img/add.svg" alt="Добавить">
+                                        </li>
+                                    </ul>
+                                    <button>Visit</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="popular-tools__item">
+                            <div class="tool-content">
+                                <div class="logo-tool">
+                                    <img src="img/VSCode-icon.svg" alt="VS Code" width="65" height="62.84">                                        <div>
+                                        <h3 class="logo-tool__name">Visual Studio Code</h3>
+                                        <span class="logo-tool__price">Free</span>
+                                    </div>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <div class="visit">
+                                    <ul class="grade">
+                                        <li class="grade__item">
+                                            <img src="img/like.svg" alt="Лайк">
+                                        </li>
+                                        <li class="grade__item">
+                                            <img src="img/add.svg" alt="Добавить">
+                                        </li>
+                                    </ul>
+                                    <button>Visit</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="popular-tools__item">
+                            <div class="tool-content">
+                                <div class="logo-tool">
+                                    <img src="img/notion-icon.svg" alt="Notion" width="64" height="64">
+                                    <div>
+                                        <h3 class="logo-tool__name">Notion</h3>
+                                        <span class="logo-tool__price">Free & Paid</span>
+                                    </div>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <div class="visit">
+                                    <ul class="grade">
+                                        <li class="grade__item">
+                                            <img src="img/like.svg" alt="Лайк">
+                                        </li>
+                                        <li class="grade__item">
+                                            <img src="img/add.svg" alt="Добавить">
+                                        </li>
+                                    </ul>
+                                    <button>Visit</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="popular-tools__item">
+                            <div class="tool-content">
+                                <div class="logo-tool">
+                                    <img src="img/slack-icon.svg" alt="Slack" width="65" height="63.82">
+                                    <div>
+                                        <h3 class="logo-tool__name">Slack</h3>
+                                        <span class="logo-tool__price">Free & Paid</span>
+                                    </div>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <div class="visit">
+                                    <ul class="grade">
+                                        <li class="grade__item">
+                                            <img src="img/like.svg" alt="Лайк">
+                                        </li>
+                                        <li class="grade__item">
+                                            <img src="img/add.svg" alt="Добавить">
+                                        </li>
+                                    </ul>
+                                    <button>Visit</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="popular-tools__item">
+                            <div class="tool-content">
+                                <div class="logo-tool">
+                                    <img src="img/invision-icon.svg" alt="Invision" width="65" height="63.82">
+                                    <div>
+                                        <h3 class="logo-tool__name">Invision</h3>
+                                         <span class="logo-tool__price">Free & Paid</span>
+                                    </div>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <div class="visit">
+                                    <ul class="grade">
+                                        <li class="grade__item">
+                                            <img src="img/like.svg" alt="Лайк">
+                                        </li>
+                                        <li class="grade__item">
+                                            <img src="img/add.svg" alt="Добавить">
+                                        </li>
+                                    </ul>
+                                    <button>Visit</button>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <button class="more">Load more</button>
+            </section>
+        </main>
+        <footer class="page-footer">
+            <div class="more-brands">
+                <p>Trusted more than 150+ brand</p>
+                <ul class="brands">
+                    <li class="brands__item">
+                        <img src="img/logos_microsoft.svg" alt="Microsoft" width="193" height="42">
+                    </li>
+                    <li class="brands__item">
+                        <img src="img/logos_google.svg" alt="Google" width="157" height="51">
+                    </li>
+                    <li class="brands__item">
+                        <img src="img/logos_slack.svg" alt="Slack" width="194" height="49">
+                    </li>
+                    <li class="brands__item">
+                        <img src="img/logos_wordpress.svg" alt="WordPress" width="194" height="44">
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </body>
 </html>
